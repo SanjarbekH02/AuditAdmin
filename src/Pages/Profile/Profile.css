@@ -1,0 +1,113 @@
+.profile{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 8px;
+    color: #64748B;
+    box-shadow: 10px 20px 20px #dad5fc;
+}
+
+.notifications{
+    width: 150px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-btn{
+    border: none;
+    background-color: inherit;
+    padding: 10px;
+    font-weight: 600;
+    color: #64748B;
+    cursor: pointer;
+}
+
+.messeges{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 10px;
+    padding: 3px;
+    color: white;
+}
+
+.drapdown{
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    bottom: -80px;
+    right: -100px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 4px#e3e0fa;
+    cursor: pointer;
+}
+
+.profile-right{
+    display: flex;
+    align-items: center;
+}
+
+.lesson-confirm{
+    padding: 5px;
+    border: none;
+    border-radius: none;
+    background-color: white;
+    text-align: start;
+    color: #64748B;
+    margin-bottom: 1px;
+    border-radius: 8px;
+}
+
+.lesson-confirm:hover {
+    background-color: #F2F1FA;
+}
+
+.profile-title{
+    padding-right: 15px;
+}
+
+.profile-name{
+    font-size: 14px;
+    color: #212B36;
+    font-weight: 400;
+}
+
+.profile-info{
+    display: flex;
+}
+
+.profile-mentor{
+    font-size: 12px;
+    font-weight: 400;
+    color: #21A168;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #EDFFF7;
+}
+
+.profile-img{
+    padding-right: 30px;
+}
+
+.language-block{
+    padding-left: 20px;
+    font-size: 24px;
+    border-left: 2px solid #CBD5E1;
+}
+
+.select-lenguage{
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+}

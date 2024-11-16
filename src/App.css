@@ -11,3 +11,16 @@ body {
     background-color: #eceaf9;
     font-family: "Inter", sans-serif;
 }
+
+.App{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 20%;
+}
+
+.right{
+    width: 77%;
+}
