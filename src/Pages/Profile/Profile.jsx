@@ -8,21 +8,6 @@ const Profile = () => {
     const openNotification = () => {
         setNotification(x => !x)
     }
-
-    const data = Array.from({ length: 100 }, (_, index) => ({
-        id: index + 1,
-        teacherName: "Xoldorova Nafisa",
-        courseCount: 12,
-        studentCount: 500,
-        coursesCompleted: 92,
-        coursesNotCompleted: 92,
-        certificatesIssued: "2 ta",
-        certificatesPending: "2 ta"
-    }));
-
-    console.log(data);
-
-
     return (
         <div className='profile'>
             <div className="notifications">

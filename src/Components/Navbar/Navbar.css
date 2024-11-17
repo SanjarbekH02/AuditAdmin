@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    height: 100%;
+    height: 800px;
     background-color: white;
     position: fixed;
     top: 0;
@@ -35,6 +35,10 @@
 
 .nav-link:hover{
     color: red;
+}
+
+.nav-link-active{
+    color: #FF7676;
 }
 
 .logout{
